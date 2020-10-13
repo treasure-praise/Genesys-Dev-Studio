@@ -5,6 +5,7 @@
 .container {
   display: flex;
   align-items: center;
+  justify-content: center;
   height: 144px;
   font-family: Nunito;
   font-style: normal;
@@ -19,13 +20,14 @@ ul {
 }
 
 li {
-  margin: 10px;
-
+  margin: 64px 30px 63px 0px;
   line-height: 110.19%;
-  /* identical to box height, or 17px */
-
   letter-spacing: 1.25px;
   text-transform: uppercase;
+}
+
+a:hover {
+  color: #f5772f;
 }
 
 a {
@@ -36,20 +38,49 @@ a {
 img {
   height: 42px;
   width: 182.46823120117188px;
-  /* left: 0px;
-top: 0px;
-border-radius: 0px; */
+  margin-left: 50px;
+  /* margin-bottom:50px; */
+  margin-right: 67.53px;
 }
 
 span {
   text-transform: uppercase;
-  padding: 10px 0px 0px 12px;
+  /* padding: 10px 0px 0px 12px; */
   width: 109px;
   height: 36px;
   border: 1px solid #17255a;
-  /* box-sizing: border-box; */
   border-radius: 4px;
   margin: 10px 0px;
   font-size: 14px;
   line-height: 16px;
+}
+
+button {
+  text-transform: uppercase;
+  /* padding: 10px 0px 0px 12px; */
+  width: 109px;
+  height: 36px;
+  border: 1px solid #17255a;
+  border-radius: 4px;
+  margin: 10px 0px;
+  margin-right: 50px;
+  font-size: 14px;
+  line-height: 16px;
+  background-color: #fff;
+  font-family: roboto;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+p {
+  margin-right: 36px;
+  font-family: Nunito;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.4000000059604645px;
+  text-align: left;
+  color: #273043;
+  letter-spacing: 0.4px;
 }

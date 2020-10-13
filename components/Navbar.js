@@ -27,9 +27,8 @@ const Navbar = () => {
           <a href="#">CONTACT </a>{" "}
         </li>
       </ul>
-      <p>
-        build a product with <span>Devstudio</span>{" "}
-      </p>
+      <p>build a product with</p>
+      <button>DEVSTUDIO</button>
     </div>
   );
 };
